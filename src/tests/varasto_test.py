@@ -113,5 +113,3 @@ class TestVarastoBranches(unittest.TestCase):
         self.assertIn("saldo", s)
         self.assertTrue("tilaa" in s or "vielä" in s or "mahtuu" in s)
 
-def test_ci_breaker():
-    assert False, "tarkoituksella rikki"
